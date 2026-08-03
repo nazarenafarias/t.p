@@ -1,24 +1,11 @@
-let n1=8
-let n2=9
-
-let suma=n1+n2
-let resta=n1-n2
-let multiplicacion=n1*n2
-let division=n1/n2
-
-alert("suma  es igual a:" + suma)
-alert("resta es igual a:"+ resta)
-alert("multiplicacion es igual a:"+ multiplicacion)
-alert("division es igual a:"+ division)
-
-let nombre='pepe'
-let apellido='mateos'
-let edad=16
-
-console.log("el alumno "+nombe+" "+apellido+" tiene "+edad)
-
-let precio1=2.000
-let precio2=2.600
-let precio3=4.000
-
-let suma=precio1+precio2+precio3
+let ej1 = document.querySelector('#ej1')
+let botonEj1 = document.querySelector('#botonEj1')
+let edad = 15
+botonEj1.onclick = function(){
+//ej1.textContent = "resultado"
+if(edad >= 18){
+    ej1.texgtContent="sos mayor de edad"
+}else{
+    ej1.textContent="Sos menor de edad"
+}
+}
