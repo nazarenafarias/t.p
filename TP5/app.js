@@ -41,5 +41,13 @@ let botonEj4 = document.querySelector("botonEj4")
 let nombreUsuario = "12"
 botonEj2.onclick = function () {
     //Escribis la condicion
-
-
+if ()
+{
+    ej4.textContent = "el numero es igual a cero"
+}
+else if(nombreUsuario < "0"){
+    ej4.textContent = "el numero es negativo "
+}
+else if(nombreUsuario > "0"){
+    ej4.textContent = "el numero es positivo"
+}
